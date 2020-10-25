@@ -1,0 +1,9 @@
+<!--pages/profile/profile.wxml-->
+<view>
+  <view class="login-wrapper">
+    <view class="login">登录</view>
+    <image class="topimage"src="/assets/imags/profile_login.png" mode="aspectFill"/>
+  </view>
+  <image class="bottom_left_image" src="/assets/imags/profile_login_bottom_left.jpg" mode="aspectFit|aspectFill|widthFix"/>
+  <view class="version">版本0.0.1</view>
+</view>

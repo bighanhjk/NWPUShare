@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <image class="logo" src="/assets/imags/ic_launcher.png"/>
+  <view class="wechat btn-login" bind:tap="wechatlogin">微信登陆</view>
+  <view class="woxiang btn-login" bind:tap="aoxianglogin">翱翔帐号登录</view>
+
+  <view class="agreement">登陆表示同意
+    <view class="protocol" bind:tap="openAgreement">我享使用协议/隐私协议</view>
+  </view>
+</view>
