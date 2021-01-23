@@ -1,16 +1,50 @@
 {
   "pages": [
-    "pages/login/login",
+    "pages/home/index",
     "pages/profile/profile",
-    
-    "pages/agreement/agreement"
-    
+    "pages/login/login",
+    "pages/agreement/agreement",
+    "pages/search/search",
+    "pages/message/message"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "我享",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_s.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icons/search.png",
+        "selectedIconPath": "icons/search_s.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "icons/message.png",
+        "selectedIconPath": "icons/message_s.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user_s.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
