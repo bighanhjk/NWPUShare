@@ -2,8 +2,11 @@
 <view>
   <view class="login-wrapper">
     <view class="login">登录</view>
-    <image class="topimage"src="/assets/imags/profile_login.png" mode="aspectFill"/>
+    <image class="topimage"src="/assets/images/profile_top.png" mode="aspectFill"/>
   </view>
-  <image class="bottom_left_image" src="/assets/imags/profile_login_bottom_left.jpg" mode="aspectFit|aspectFill|widthFix"/>
+  <view>
+    
+  </view>
+  <image class="bottom_left_image" src="/assets/images/profile_left_down.jpg" mode="aspectFit|aspectFill|widthFix"/>
   <view class="version">版本0.0.1</view>
 </view>
