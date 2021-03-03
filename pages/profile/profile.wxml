@@ -1,12 +1,63 @@
 <!--pages/profile/profile.wxml-->
-<view>
+<view>    
   <view class="login-wrapper">
-    <view class="login">登录</view>
+      <view class="login_icon"></view>
+      <navigator url="/pages/login/login">
+        <view class="login_text">登录</view>
+      </navigator>
     <image class="topimage"src="/assets/images/profile_top.png" mode="aspectFill"/>
   </view>
-  <view>
+  <view class="function_wrapper">
+    <view class="function_border">
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          我的订单
+        </text>
+      </view>
+      </navigator>
     
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          共享商品
+        </text>
+      </view>
+      </navigator>
+
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          二手商品
+        </text>
+      </view>
+      </navigator>
+
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          意见反馈
+        </text>
+      </view>
+      </navigator>
+
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          使用说明
+        </text>
+      </view>
+      </navigator>
+
+      <navigator url="/pages/login/login">
+        <view class="function_item">
+        <text class="itemtext">
+          我的足迹
+        </text>
+      </view>
+      </navigator>
+    </view>
   </view>
-  <image class="bottom_left_image" src="/assets/images/profile_left_down.jpg" mode="aspectFit|aspectFill|widthFix"/>
+  
   <view class="version">版本0.0.1</view>
 </view>
