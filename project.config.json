@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "NWPUShare",
   "description": "NWPUShare",
-  "appid": "touristappid",
+  "appid": "wx0d6120ef53b3dfa8",
   "setting": {
     "urlCheck": true,
     "es6": false,

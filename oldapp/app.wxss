@@ -1,7 +1,0 @@
-/**app.wxss**/
-@import "./styles/iconfont.wxss";
-
-page{
-  --themeColor:#6c62ff;
-  font-size: 28rpx;
-}
