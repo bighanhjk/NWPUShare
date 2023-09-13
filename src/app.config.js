@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  pages: ["pages/home/index", "pages/mine/index"],
+  pages: ["pages/home/index", "pages/mine/index", "pages/login/index"],
   tabBar: {
     color: "#2c2c2c",
     selectedColor: "#1296db",
