@@ -1,0 +1,82 @@
+.index {
+  /* 背景渐变色 */
+  background: -webkit-linear-gradient(top, #a59ffa, #67ff62);
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*登录页面背景*/
+    .app_icon {
+      width: 144px;
+      height: 144px;
+      margin: 30px 0;
+    }
+    /*轮播图*/
+    .login_swiper {
+      width: 419.9px;
+      height: 506.6px;
+      .login_swiper_image {
+        width: 100%;
+        border-radius: 50px;
+      }
+    }
+
+    /*表单内容*/
+    .login-form {
+      margin-top: 20px;
+      .tipInputView {
+        display: flex;
+        .tipNameText {
+          font-weight: bold;
+          font-size: 34px;
+          margin-top: 40px;
+          margin-right: 20px;
+        }
+        .tipPwdText {
+          font-weight: bold;
+          font-size: 34px;
+          margin-top: 42px;
+          margin-right: 54px;
+        }
+        .inputView {
+          background-color: #fff;
+          line-height: 88px;
+          border-radius: 22px;
+          margin: 20px 0;
+          /*输入框*/
+          .loginLab {
+            margin: 15px 15px 15px 15px;
+            color: #545454;
+            font-size: 34px;
+          }
+          /* 框内文字 */
+          .inputText {
+            float: left;
+            text-align: left;
+            margin-left: 30px;
+            margin-right: 2px;
+            margin-top: 24px;
+            color: #000000;
+            font-size: 34px;
+            /* 加粗 */
+            font-weight: bold;
+            /* 框内提示文字的高度 */
+            height: 34px;
+          }
+        }
+      }
+
+      .loginBtn {
+        padding: 0;
+        margin: 0;
+        width: 144px !important;
+        height: 144px;
+        margin-top: 35px;
+        border-radius: 90px;
+        .loginBtn image {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
