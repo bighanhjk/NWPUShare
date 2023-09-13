@@ -1,3 +1,3 @@
-{
-  "navigationBarTitleText": "翱翔门户登录"
-}
+export default definePageConfig({
+  navigationBarTitleText: '翱翔门户登录'
+})
