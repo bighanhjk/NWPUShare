@@ -1,5 +1,5 @@
 /* eslint-disable jsx-quotes */
-import { Taro } from "@tarojs/taro";
+import Taro from "@tarojs/taro";
 import { View, Text, Image } from "@tarojs/components";
 import profile_top from "../../assets/images/profile_top.png";
 import "./index.less";
@@ -14,7 +14,7 @@ export default function Index() {
         <View className="login_icon"></View>
         <View
           className="login_text"
-          onClick={() => Taro.navigateTo({ url: "/pages/login/index" })}
+          onClick={() => Taro.navigateTo({ url: "/pages/npulogin/index" })}
         >
           <Text>登录</Text>
         </View>

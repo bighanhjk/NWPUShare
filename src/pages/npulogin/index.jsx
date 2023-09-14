@@ -1,20 +1,27 @@
 /* eslint-disable jsx-quotes */
-import { View, Image, Text } from "@tarojs/components";
-// import { useLoad } from "@tarojs/taro";
+import {
+  View,
+  Text,
+  Image,
+  Button,
+  Swiper,
+  SwiperItem,
+} from "@tarojs/components";
+import { useLoad } from "@tarojs/taro";
+import login_next from "../../assets/images/login_slideshow1.png";
 import "./index.less";
 
 export default function Index() {
+  useLoad(() => {
+    console.log("Login Page loaded.");
+  });
   return (
     <View className="index">
       <View className="container">
-        <Image
-          className="app_icon"
-          mode="widthFix"
-          src="/icons/login_next.png"
-        ></Image>
+        <Image className="app_icon" mode="widthFix" src={login_next}></Image>
         <View>
-          <swiper
-            className="login_swiper"
+          <Swiper
+            className="login_Swiper"
             indicator-dots="true"
             indicator-color="rgba(0,0,0,.3)"
             autoplay="true"
@@ -22,27 +29,22 @@ export default function Index() {
             interval="5000"
             duration="1000"
           >
-            <swiper-item item-id="1">
-              <navigator>
-                <Image
-                  className="login_swiper_image"
-                  mode="widthFix"
-                  src="/assets/images/login_slideshow1.png"
-                ></Image>
-              </navigator>
-            </swiper-item>
-            <swiper-item item-id="2">
-              <navigator>
-                <Image
-                  className="login_swiper_image"
-                  mode="widthFix"
-                  src="/assets/images/login_slideshow2.png"
-                ></Image>
-              </navigator>
-            </swiper-item>
-          </swiper>
+            <SwiperItem item-id="1">
+              <Image
+                className="login_Swiper_image"
+                mode="widthFix"
+                src="/assets/images/login_slideshow1.png"
+              ></Image>
+            </SwiperItem>
+            <SwiperItem item-id="2">
+              <Image
+                className="login_Swiper_image"
+                mode="widthFix"
+                src="/assets/images/login_slideshow2.png"
+              ></Image>
+            </SwiperItem>
+          </Swiper>
         </View>
-
         <View className="login-form">
           <View className="tipInputView">
             <text className="tipNameText">学工号</text>
@@ -67,10 +69,9 @@ export default function Index() {
               />
             </View>
           </View>
-
-          <button className="loginBtn">
-            <Image src="/icons/login_next.png" mode="widthFix"></Image>
-          </button>
+          <Button className="loginBtn">
+            <Image src={login_next} mode="widthFix"></Image>
+          </Button>
         </View>
       </View>
     </View>

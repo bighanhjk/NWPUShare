@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  pages: ["pages/home/index", "pages/mine/index", "pages/login/index"],
+  pages: ["pages/home/index", "pages/mine/index", "pages/npulogin/index"],
   tabBar: {
     color: "#2c2c2c",
     selectedColor: "#1296db",
@@ -20,10 +20,10 @@ export default defineAppConfig({
       //   "selectedIconPath": "icons/search_s.png"
       // },
       // {
-      //   "pagePath": "pages/message/message",
-      //   "text": "消息",
-      //   "iconPath": "icons/message.png",
-      //   "selectedIconPath": "icons/message_s.png"
+      //   pagePath: "pages/npulogin/index",
+      //   text: "消息",
+      //   iconPath: "assets/icons/message.png",
+      //   selectedIconPath: "assets/icons/message_s.png",
       // },
       {
         pagePath: "pages/mine/index",
